@@ -1,3 +1,4 @@
+See a demo of this boilerplate [here](http://ventinus.github.io/boilerplate-demo/)
 # Basic Boilerplate
 
 > This is a simple boilerplate using Grunt & Assemble
