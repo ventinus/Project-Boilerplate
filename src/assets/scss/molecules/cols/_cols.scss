@@ -1,1 +1,9 @@
+.cols {
+  display: block;
+  font-size: 0;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
 @include cols(1, 3, 10px, 10px, '.cols', '.cols__col');
+

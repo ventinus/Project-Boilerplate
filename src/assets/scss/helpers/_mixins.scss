@@ -53,13 +53,6 @@
 }
 
 @mixin cols($min: 1, $max: 12, $col-gutter: 0px, $row-gutter: 0px, $col-wrapper-name: ".cols", $col-name: ".cols__col", $breakpoint: '') {
-  #{$col-wrapper-name} {
-    display: block;
-    font-size: 0;
-    margin-left: -$col-gutter;
-    margin-top: -$row-gutter;
-  }
-
   #{$col-wrapper-name} > * {
     margin-top: $row-gutter;
     margin-left: $col-gutter;
